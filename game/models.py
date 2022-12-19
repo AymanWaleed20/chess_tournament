@@ -71,8 +71,8 @@ class Match(Base):
     tournament_id = Column(Integer, ForeignKey("tournament.id"), nullable=False)
     date_of_match = Column(DateTime)
 
-    player1_address = relationship("Player", foreign_keys=[player1_id])
-    player2_address = relationship("Player", foreign_keys=[player2_id])
+    player1_ = relationship("Player", foreign_keys=[player1_id])
+    player2_ = relationship("Player", foreign_keys=[player2_id])
 
 
 #engine = create_engine("mysql://root:Ayman1234@127.0.0.1/chess_game", echo=True, future=True)
