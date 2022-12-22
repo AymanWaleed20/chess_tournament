@@ -9,6 +9,8 @@ djangorestframework = "*"
 marshmallow = "*"
 marshmallow-sqlalchemy = "*"
 mysqlclient = "*"
+pipfile = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
